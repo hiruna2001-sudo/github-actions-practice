@@ -14,7 +14,8 @@ jobs:
         run: echo "Hello! My first GitHub Action is working."
 
       - name: Display the current date
-        run: date
+        run:  date
 
       - name: Display repository information
-        run: echo "Repository: $GITHUB_REPOSITORY"
+        run: 'echo "Repository: $GITHUB_REPOSITORY"'
+
